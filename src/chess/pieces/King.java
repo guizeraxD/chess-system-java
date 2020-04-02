@@ -14,4 +14,12 @@ public class King extends ChessPiece {
 	public String toString() {
 		return "K";
 	}
+
+	@Override
+	public boolean[][] possibleMoves(){
+		// TODO Auto-generated method stub
+		//todas posicoes começam com falso
+		boolean[][]mat = new boolean[getBoard().getRows()][getBoard().getColumns()];
+		return mat;
+	}
 }
